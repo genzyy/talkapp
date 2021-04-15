@@ -10,7 +10,6 @@ RUN yarn install --quiet && yarn run build
 # Production stage.
 # This state compile get back the JavaScript code from builder stage
 # It will also install the production package only
-#
 FROM node:12.13.0-alpine
 
 WORKDIR /app
